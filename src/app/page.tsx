@@ -1,12 +1,10 @@
-import ActiveLabel from '../app/Components/ActiveLabel';
-import NotActiveLabel from './Components/NotActiveLabel';
+import StatusLabel from './Components/StatusLabel';
 
 export default function Home() {
   return (
-      <main>
-        <h1 className="text-xl">Home page </h1>
-        <ActiveLabel>Active</ActiveLabel>
-        <NotActiveLabel>Not Active</NotActiveLabel>
-      </main>
+    <main>
+      <h1 className="text-xl">Home page </h1>
+      <StatusLabel>Active</StatusLabel>
+    </main>
   );
 }
