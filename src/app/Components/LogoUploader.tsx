@@ -24,7 +24,7 @@ export default function LogoUploader({
           className="mb-1"
           width={48}
           height={48}
-          src="/Icons/upload.png"
+          src="/icons/upload.png"
           alt="upload"
         />
         {placeholder && (
