@@ -6,16 +6,16 @@ import { Dialog, Transition } from '@headlessui/react';
 export interface ModalProps {
   children?: React.ReactNode;
   show: boolean;
-  onClose: () => void;
+  onCloseAction: () => void;
 }
 
-export default function Modal({ show, children, onClose }: ModalProps) {
+export default function Modal({ show, children, onCloseAction }: ModalProps) {
   return (
     <Transition.Root as={Fragment} show={show}>
       <Dialog
         as="div"
         className="fixed inset-0 z-50 flex items-center"
-        onClose={onClose}
+        onClose={onCloseAction}
       >
         <Transition.Child
           as={Fragment}
