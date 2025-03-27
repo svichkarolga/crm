@@ -22,7 +22,7 @@ export default function SearchInput({
         className="absolute top-0	right-0 p-3"
         onClick={onSearchClick}
       >
-        <Image width={20} height={20} src="/icons/loop.png" alt="search icon" />
+        <Image width={20} height={20} src="/icons/loop.svg" alt="search icon" />
       </button>
     </div>
   );

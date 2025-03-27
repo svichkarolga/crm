@@ -45,7 +45,7 @@ export default function CompanyRow({
           <Image
             width={16}
             height={16}
-            src={`/icons/${promotion ? 'check' : 'cross'}.png`}
+            src={`/icons/${promotion ? 'check' : 'cross'}.svg`}
             alt="promotion icon"
           />
           <span
