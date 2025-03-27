@@ -10,7 +10,7 @@ export interface PageProps {}
 export default function Page({}: PageProps) {
   const router = useRouter();
   return (
-    <Modal show={true} onClose={() => router.back()}>
+    <Modal show={true} onCloseAction={() => router.back()}>
       <CompanyForm onSubmitAction={console.log} />
     </Modal>
   );
