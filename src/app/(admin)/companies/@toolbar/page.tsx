@@ -1,5 +1,4 @@
 import React from 'react';
-import Header from '@/app/Components/Header';
 import Toolbar from '@/app/Components/ToolBar';
 import SearchInput from '@/app/Components/SearchInput';
 import AddCompanyButton from '@/app/Components/AddCompanyButton';

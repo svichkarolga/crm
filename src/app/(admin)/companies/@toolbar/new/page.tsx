@@ -1,5 +1,4 @@
 import React from 'react';
-import Header from '@/app/Components/Header';
 
 export interface PageProps {}
 

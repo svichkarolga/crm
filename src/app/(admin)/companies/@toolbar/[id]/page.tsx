@@ -1,8 +1,16 @@
 import React from 'react';
-import Header from '@/app/Components/Header';
+import Toolbar from '@/app/Components/ToolBar';
+import SearchInput from '@/app/Components/SearchInput';
+import AddPromotionButton from '@/app/Components/AddPromotionButton';
 
-export interface PageProps {}
+export interface PageProps {
+  params: { id: string };
+}
 
-export default function Page({}: PageProps) {
-  return null;
+export default function Page({ params }: PageProps) {
+  return (
+    <Toolbar action={<AddPromotionButton companyId={params.id} />}>
+      <SearchInput />
+    </Toolbar>
+  );
 }
