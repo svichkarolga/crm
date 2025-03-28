@@ -8,17 +8,20 @@ export interface PageProps {}
 
 export default function Page({}: PageProps) {
   const router = useRouter();
-  // Обработчик отправки формы
-  const handleSubmit = (data: any) => {
-    console.log('Form submitted with data:', data);
-    // Логика обработки данных формы
+
+  // Обработчик для отправки формы
+  const handleSubmit = () => {
+    console.log('Form submitted');
+    // Логика отправки формы
+    router.back(); // Вернуться назад после отправки формы
   };
+
   return (
     <CompanyFormModal
       show={true}
       onCloseAction={() => router.back()}
-      onSubmitAction={handleSubmit}
       onClose={() => router.back()}
+      onSubmitAction={handleSubmit}
     />
   );
 }
