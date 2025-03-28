@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-empty-object-type */
 import React from 'react';
 import { getCategories, getCompanies } from '@/lib/api';
 import getCountById from '@/lib/utils/getCountById';

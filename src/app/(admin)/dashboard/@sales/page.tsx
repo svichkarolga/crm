@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-empty-object-type */
 import React from 'react';
 import { getSummarySales } from '@/lib/api';
 import SummaryTable from '@/app/Components/SummaryTable';

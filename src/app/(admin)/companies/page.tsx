@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-empty-object-type */
 import React from 'react';
 import { dehydrate, HydrationBoundary } from '@tanstack/react-query';
 import { getCompanies } from '@/lib/api';

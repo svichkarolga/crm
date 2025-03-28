@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-empty-object-type */
 import React from 'react';
 import { getSummaryStats, SummaryStats } from '@/lib/api';
 import StatCard, { StatCardType } from '@/app/Components/statCard/statCard';
